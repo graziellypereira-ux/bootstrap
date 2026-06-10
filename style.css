@@ -23,3 +23,45 @@
 .container-fluid{
 	justify-content: center;
 }
+.accordion-rosa .accordion-item{
+    border-radius: 15px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid #ffb6c1;
+}
+
+.accordion-rosa .accordion-button{
+    background-color: #ffe4ec;
+    color: #b30059;
+    font-weight: bold;
+}
+
+.accordion-rosa .accordion-button:not(.collapsed){
+    background-color: #ffb6c1;
+    color: white;
+    box-shadow: none;
+}
+.tabela-rosa thead{
+    background-color: #ffb6c1 !important;
+    color: white;
+}
+
+.tabela-rosa tbody tr:hover{
+    background-color: #ffe4ec !important;
+}
+
+.tabela-rosa{
+    border-color: #ffb6c1 !important;
+}
+
+.tabela-rosa td,
+.tabela-rosa th{
+    border-color: #ffb6c1 !important;
+}
+.offcanvas-end {
+  border-radius: 20px 0 0 20px;
+}
+.navbar-nav .nav-link {
+  font-size: 18px;
+  font-weight: 500;
+}

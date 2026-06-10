@@ -33,19 +33,18 @@
         <a class="navbar-brand" href="../index.html">Pagina Inicial</a>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="paginas/equipe.html">Equipe</a>
+            <a class="nav-link active" aria-current="page" href="./equipe.html">Equipe</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="paginas/contatos.html">Contatos</a>
+            <a class="nav-link" href="contatos.html">Contatos</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="paginas/mapa.html">Localização</a>
+            <a class="nav-link" href="mapa.html">Localização</a>
             </li>
         </ul>
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search"/>
-            <button class="btn" type="submit"style="background-color: #ffb6c1; color: white;">Procurar</button>
-        </form>
+      <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#categorias"
+style="background-color:#ffb6c1; color:white;">
+  Categorias
         </div>
     </div>
     </nav>
@@ -85,35 +84,36 @@
     <div class="card" style="width: 18rem;">
   <img src="../imagens/shopping (9).webp" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <h5 class="card-title">Base Fluida</h5>
+    <p class="card-text">Base fluida Bria Beauty.<br><i>R$45,90</i></p>
     <a href="#" class="btn btn-card">Comprar</a>
   </div>
 </div>
     <div class="card" style="width: 18rem;">
   <img src="../imagens/shopping (7).webp" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <h5 class="card-title">hidratante Labial</h5>
+    <p class="card-text">Gloss Liphoney Franciny Ehlke Labial Irresistivel Brilho.<br><i>R$40,00</i></p>
     <a href="#" class="btn btn-card">Comprar</a>
   </div>
  </div>
     <div class="card" style="width: 18rem;">
   <img src="../imagens/shopping (8).webp" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <h5 class="card-title">iluminador</h5>
+    <p class="card-text">Pixi On-the-Glow Bronze.<br><i>R$91,21</i></p>
     <a href="#" class="btn btn-card">Comprar</a>
   </div>
  </div>
  <div class="card" style="width: 18rem;">
   <img src="../imagens/shopping (2).webp" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <h5 class="card-title">Blush Compacto</h5>
+    <p class="card-text">Blush Compacto Glass Ruby Rose.<br><i>R$24,71</i></p>
     <a href="#" class="btn btn-card">Comprar</a>
   </div>
 </div>
+
     <!--footer-->
         <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -133,4 +133,20 @@
         <p class="text-center text-body-secondary">© 2026 Minha Empresa</p>
     </footer>
     </body>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="categorias" aria-labelledby="categoriasLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="categoriasLabel">Categorias</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="list-group">
+      <li class="list-group-item">Bases</li>
+      <li class="list-group-item">Batom</li>
+      <li class="list-group-item">Gloss</li>
+      <li class="list-group-item">Sombras</li>
+      <li class="list-group-item">Skincare</li>
+      <li class="list-group-item">Kits completos</li>
+    </ul>
+  </div>
+</div>
     </html> 
