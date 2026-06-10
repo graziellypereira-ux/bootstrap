@@ -1,1 +1,25 @@
-body {color: black;}
+.card{
+	display: inline-block;
+	margin: 50px;
+}
+.btn-card{
+	background-color:#ffb6c1;
+	color:white;
+	border-color:#ffb6c1;
+}
+
+.btn-card:hover{
+	background-color:#ff9eb5;
+	color:white;
+	border-color:#ff9eb5;
+}
+.card{
+	height: 250%;
+}
+.card-img-top{
+	height: 400px;
+	object-fit: cover;
+}
+.container-fluid{
+	justify-content: center;
+}
